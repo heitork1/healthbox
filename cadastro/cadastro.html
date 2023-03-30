@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Box</title>
     <link rel="stylesheet" href="cadastro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
 </head>
 <body>
     <div class="main">
-        <img src="img/logo.png" alt="">
+        <img src="../img/logo.png" alt="">
     <div class="grande">
         <form action="">
             <label for="">Nome completo</label>
-            <input type="text">
+            <input type="text" class="large-data">
             <label for="">E-mail</label>
-            <input type="text">
+            <input type="text" class="large-data">
             <label for="">Crie uma senha</label>
-            <input type="text">
+            <input type="text" class="large-data">
             <div class="form2">
                 <div class="small-data">
                     <label for="">Data de nascimento</label>
@@ -25,12 +28,12 @@
                 </div>
                 <div class="small-data">
                     <label for="">DDD + Telefone</label>
-                    <input type="tel" name="" id="">
+                    <input type="tel" name="" id="tel">
                 </div>
             </div>
-            <p>Ao criar uma conta, você concorda com a Política de Privacidade e com os Termos de Uso da Heath box.</p>
-            <input type="submit" value="Finalizar">
-            <p>Já é um usuário? <a href="">Fazer login</a> </p>
+            <p class="small-letters" id="politica">Ao criar uma conta, você concorda com a Política de Privacidade e com os Termos de Uso da Health Box.</p>
+            <input type="submit" value="Cadastrar" id="cadastrar">
+            <p class="small-letters" id="login">Já é um usuário? <a href="">Fazer login</a> </p>
         </form>
     </div>
 </div>
