@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
@@ -11,22 +11,36 @@
 <body>
     <header class="menu-principal">
         <main>
-            <div class="header-1">
-                <div class="logo">  
-                    <img src="img/logo.png" width="200" height="200"></img>
-                </div>
-                <div class="pesquisa">
-                    <input class="pesquisa" type="text" name="" placeholder="Pesquisa">
-                        <a class="search-bnt" href="#">
-                           <i class="fas fa-search"></i> 
-                        </a>
-                    </div>
-                </div>
+            <div class="logo">  
+                <img src="img/logo.png" width="200" height="200"></img>
             </div>
-        </main>
-        <main>
-            <div class="header-2" ></div>
+            <form action="busca.php" class="form-busca-site">
+                <input type="text" name="txtsearch" class="btn-text-top" placeholder="Pesquisa"></input>
+                    <div><button class="btn-buscar-top"></button></div>   
+            </form>
+
+                <main>  
+                    <div class="Palavras-manu-primario">
+                        <div class="entrar">Entrar</div>
+                        <div class="sacola">Sacola</div>
+                    </div>
+                    <div class="menu-secundario" ></div>
+                    <div class="Palavras-manu-secundario">
+                        <div class="produto">Produto</div>
+                        <div class="sobre-nos">Sobre Nós</div>
+                        <div class="contato">Contato</div>
+                    </div>
+                </main>
+
+                <header class="texto">
+                   <div> 
+                    <p style="font-family:century gothic;">Emagrecer de forma</p>
+
+                   </div>
+                 </header>
         </main>
     </header>
+    
+    
 </body>
 </html>
