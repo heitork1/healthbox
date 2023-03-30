@@ -1,32 +1,93 @@
 * {
     margin: 0;
 }
+body{
+    background-image: url("img/fundo.png");
+}
 .main{
     display: flex;
     height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 .grande{
     width: 70vh;
     height: 70vh;
-    background-color: #273E2A;
-    border: 3vh solid #416E3F;
+    background-color: #194018;
+    border: 3vh solid #72B06F;
+    margin-bottom: 1%;
+    border-radius: 1%;
 }
 .main img{
-    width: 15%;
-    margin-bottom: -5.5%;
-    margin-top: -2%;
+    width: 22%;
+    margin: -5%;
 }
 form{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content:space-around;  
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    
 }
+form .large-data{
+    height: 5%;
+    margin-top: 2%;
+}
+label{
+    margin-top: 1%;
+}
+
+.small-data input{
+    height: 4vh;
+    
+    border-radius: 3%;
+    border: none;
+}
+
 .form2{
     display: flex;
+    justify-content: space-between;
+    
+    margin-top: 2%;
 }
 .small-data{
     display: flex;
     flex-direction: column;
+}
+.small-letters{
+    line-height: 20px;
+    font-size: 12px;
+    margin: auto;
+}
+#politica{
+    margin-top: 5%;
+}
+#cadastrar{
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    background-color: #848D43;
+    font-size: 22px;
+    padding: 2%;
+    color: #ffffff;
+    width: 45%;
+    margin: auto;
+    margin-top: -4%;
+    border: none;
+    border-radius: 3%;
+}
+#login{
+    margin-top: -4%;
+}
+a{
+    list-style: none;
+    color: #ffffff;
 }
