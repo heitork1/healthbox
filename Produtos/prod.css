@@ -128,6 +128,7 @@ a:hover{
     height: 45px;
     margin-top: 15px; 
     position: fixed;   
+    justify flex-direction: row;
 }
 
 .Palavras-manu-secundario{
@@ -146,7 +147,7 @@ a:hover{
     height: 20px;
     width: 180px;
     justify-content:space-between;
-    margin-left: 1080px;
+    margin-left: 81%;
     margin-top: -50px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -163,7 +164,7 @@ a:hover{
     background-image: url(/img/bag.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 213px;
+    margin-left: 240px;
     margin-top: -35px;
 }
 .img-entrar{
@@ -172,7 +173,7 @@ a:hover{
     background-image: url(/img/bonequinho.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 85px;
+    margin-left: 100px;
     margin-top: -35px;
 
 }
