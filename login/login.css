@@ -2,3 +2,43 @@ header{
     height: 10vh;
     background-color: #273E2A;
 }
+.main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.grande{
+    width: 70vh;
+    height: 70vh;
+    background-color: #194018;
+    border: 3vh solid #72B06F;
+    margin-bottom: 1%;
+    border-radius: 1%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+.small-letters{
+    line-height: 20px;
+    font-size: 12px;
+}
+.opcoes1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.redes{
+display: flex;
+}
+.redes img{
+    height: 80%;
+    border-radius: 8%;
+}
+.icons8{
+    
+}

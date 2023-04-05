@@ -2,15 +2,14 @@
     margin: 0;
 }
 body{
-    background-image: url("img/fundo.png");
+    background-color: #d7d8d9;
 }
 .main{
     display: flex;
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 .grande{
     width: 70vh;
@@ -30,7 +29,7 @@ form{
     height: 100%;
     width: 80%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     justify-content:space-around;  
     font-family: 'roboto', sans-serif;
     font-weight: 400;
