@@ -3,10 +3,10 @@
     padding: 0;
 }
 .texto{
-    height:500px;
-    width: 500px;
-    margin-left: 780px;
-    margin-top: 100px;
+    height: 40%;
+    width: 30%;
+    margin-left: 56%;
+    margin-top: 10%;
 }
 .body{
     width: 100%;
@@ -14,25 +14,14 @@
     background-color: #D7DBD9;
     background-repeat: no-repeat;
     position: fixed;
-    
 }
-.IMG-FUNDO{
-    width: 620px;
-    height: 597px;
-    background-image: url(/img/img-inicio.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-top: 60px;
-    margin-left: 40px;
-    
-}
+
 .menu-principal{
     display: inline;
     width: 100%;
     background-color:#0A250D;
     height: 55px;
     position: fixed;
-    margin-top: -60px;
 }
 
 menu{
@@ -96,13 +85,13 @@ a:hover{
     background-size: cover;
 }
 .btn-text-top{
-    margin-left: 65%;
+    margin-left: 68%;
     margin-top: 10px;
     background-color: rgb(255, 255, 255);
     border:1px solid rgba(255, 255, 255,8);
     border-radius: 12px;
     padding: 15px 50px 15px 30px;
-    width: 165px;
+    width: 170px;
     height: 2px;
     position: relative;
 }
@@ -123,7 +112,7 @@ a:hover{
     width: 100%;
     background-color:#7C9E82;
     height: 45px;
-    margin-top: 15px; 
+    margin-top: 11px; 
     position: fixed;   
 }
 
@@ -139,19 +128,27 @@ a:hover{
 
 }
 .espaço-palavras-menu-principal{
+    margin-left: 83%;
+    margin-top: -30px;
+    position: fixed;
+    height: 3% ;
+    width: 15%; 
+    display: inline-flex;
     
 }
 .sacola{
-    margin-left: 83%;
-    margin-top: -1%;
+    margin-left: 20%;
+    margin-top: 4px;
     color: white;
     position: relative;
+    font-size: 20px;
 }
 .entrar{
-    margin-left: 90%;
-    margin-top: -1%;
+    margin-left: 20%;
+    margin-top: 4px;
     color: white;
     position: relative;
+    font-size: 20px;
 }
 
 .img-sacola{
@@ -160,8 +157,8 @@ a:hover{
     background-image: url(/img/inicio/bag.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 81%;
-    margin-top: -25px;
+    margin-left: 130px;
+    margin-top: 2px;
 }
 .img-entrar{
     width: 25px;
@@ -169,7 +166,19 @@ a:hover{
     background-image: url(/img/inicio/bonequinho.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 88%;
-    margin-top: -25px;
-
+    margin-left: 21px;
+    margin-top: 2px;
+} 
+.esp-img-fundo{
+    width: 55%;
+    height: 90%;
+    margin-top: -136px;
+    position: fixed;
+}
+.IMG-FUNDO{
+    background-image: url(/img/inicio/img-inicio.jpg) ;
+    width: 90%;
+    height: 110%;
+    background-size: cover;
+    margin-top: -19px;
 }
