@@ -3,10 +3,11 @@
     padding: 0;
 }
 .texto{
-    height:500px;
-    width: 500px;
-    margin-left: 780px;
-    margin-top: 100px;
+    height: 80vh;
+    width: 30vw;
+    margin-left: 56%;
+    margin-top: 11vh;
+    /* background-color: rgba(0, 255, 255, 0.507); */
 }
 .body{
     width: 100%;
@@ -14,25 +15,14 @@
     background-color: #D7DBD9;
     background-repeat: no-repeat;
     position: fixed;
-    
 }
-.IMG-FUNDO{
-    width: 620px;
-    height: 597px;
-    background-image: url(/img/img-inicio.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-top: 60px;
-    margin-left: 40px;
-    
-}
+
 .menu-principal{
-    display: flex;
+    display: inline;
     width: 100%;
     background-color:#0A250D;
     height: 55px;
     position: fixed;
-    margin-top: -60px;
 }
 
 menu{
@@ -40,14 +30,13 @@ menu{
     margin-top: 30px;
     width: 200px;
     height: 100px;
-    
-
 }
+
 .menu > img{
     height: 20px; 
     width: 20px
-
 }
+
 .menu >a{
     text-decoration: none;
     color:black;
@@ -88,7 +77,7 @@ a:hover{
 }
 
 .logo{
-    background-image: url(/img/logo-br.png);
+    background-image: url(/img/inicio/logo-br.png);
     width: 220px;
     height: 220px;
     margin-top: -82px;
@@ -97,83 +86,101 @@ a:hover{
     background-size: cover;
 }
 .btn-text-top{
-    margin-left: 58%;
+    margin-left: 135vh;
     margin-top: 10px;
-    background-color: whitesmoke;
-    border:1px solid rgba(255, 255, 255,8);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255,8);
     border-radius: 12px;
     padding: 15px 50px 15px 30px;
-    width: 165px;
+    width: 170px;
     height: 2px;
+    position: relative;
 }
 .btn-buscar-top{
-    margin-left: 54%;
+    margin-left: -29px;
+    top: 16px;
     width: 20px;
     height: 22px;
     background:url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
     border:none;
     cursor: pointer;
-    position:relative;
-    left:270px;
-    top:-29px;
-    
-    
+    position: fixed;
 }
 .form-busca-site{
-    margin-left: 0px;
+    margin-left: 2px;
 }
 .menu-secundario{
     width: 100%;
     background-color:#7C9E82;
     height: 45px;
-    margin-top: 15px; 
+    margin-top: 11px; 
     position: fixed;   
-    justify flex-direction: row;
 }
 
-.Palavras-manu-secundario{
+.Palavras-menu-secundario{
     display: flex;
     height: 20px;
     width: 345px;
     justify-content:space-around;
-    margin-left: 74%;
+    margin-left: 145vh;
     margin-top: 13px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;1
+}
+ 
+.espaço-palavras-menu-principal{
+    margin-left: 84vw;
+    margin-top: -2vw;
+    position: fixed;
+    height: 4vh;
+    width: 14vw; 
+    display: inline-flex;
+}
 
-}
-.Palavras-manu-primario{
-    display: flex;
-    height: 20px;
-    width: 180px;
-    justify-content:space-between;
-    margin-left: 81%;
-    margin-top: -50px;
+.sacola{
+    margin-left: 22%;
+    margin-top: 4px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 20px;
 }
-.img-palavras-manu-primerio{
-    height: 20px;
-    width: 180px;
-    margin-left: 962px;
-    margin-top: -20px;
+.entrar{
+    margin-left: 22%;
+    margin-top: 4px;
+    color: white;
+    position: relative;
+    font-size: 20px;
 }
+
 .img-sacola{
     width: 25px;
     height: 25px;
-    background-image: url(/img/bag.png) ;
+    background-image: url(/img/inicio/bag.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 240px;
-    margin-top: -35px;
+    margin-left: 16vh;
+    margin-top: 1px;
 }
 .img-entrar{
     width: 25px;
     height: 25px;
-    background-image: url(/img/bonequinho.png) ;
+    background-image: url(/img/inicio/bonequinho.png) ;
     position: fixed;
     background-size: cover;
-    margin-left: 100px;
-    margin-top: -35px;
+    margin-left: 2vh;
+    margin-top: 1px;
+} 
 
+.cabeçalho{
+    margin-left: 95%;
+    margin-top: 10vh;
+    border: solid 1px  black;
+    
+}
+
+#faixa-de-preço{
+    border: solid 1px  black;
+    margin-top: 20vh;
+    height: 20px;
+    width: 100vh;
 }

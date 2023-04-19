@@ -1,0 +1,39 @@
+.esp-produto{
+width: ;
+height: ;
+}
+.img-principal{
+    background-image: url(/img/box6.jpg);
+    width: 395px;
+    height: 355px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.img-bloco1{
+    background-image: url(/img/prdt-especifico/bloco1.png);
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+.img-bloco2{
+    background-image: url(/img/prdt-especifico/bloco2.jpg);
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+.img-bloco3{
+    background-image: url(/img/prdt-especifico/bloco3.jpg);
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+.img-bloco4{
+    background-image: url(/img/prdt-especifico/bloco4.jpg);
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 150px;
+}
