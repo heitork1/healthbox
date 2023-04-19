@@ -6,17 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Box</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+      </style>
     <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
     <div class="main">
+        <img src="../img/Login-cadastro/logo.png" alt="">
         <div class="grande">
             <form action="">
                 <label for="">E-mail</label>
-                <input type="text">
+                <input type="text" class="email-senha">
                 <label for="">Senha</label>
-                <input type="text" class="large-data">
+                <input type="text" class="large-data email-senha" >
                 <div class="opcoes1">
                     <p class="small-letters">Esqueci minha senha</p>
                     <div>
@@ -26,12 +30,16 @@
                 </div>
                 <div class="redes">
                     <p class="small-letters">Entrar com:</p>
-                    <img src="../img/facebook.png" alt="">
-                    <img src="../img/google.png" alt="" class="icons8">
-                    <img src="../img/apple.png" alt="" class="icons8">
+                    <img src="../img/Login-cadastro/face2.png" alt="" class="face">
+                    <img src="../img/Login-cadastro/g.png" alt="" class="icons8">
+                    <img src="../img/Login-cadastro/apple.png" alt="" class="icons8">
                 </div>
-                <input type="submit" value="Entrar" id="Entrar">
+                <p class="small-letters termos">Ao fazer login, você concorda com a Política de Privacidade e com os Termos de
+                    Uso da Health box.</p>
+                <input type="submit" value="Entrar" id="entrar">
+                <p class="small-letters registro">Não está registrado? Faça cadastro!</p>
             </form>
+
         </div>
     </div>
 </body>
