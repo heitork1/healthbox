@@ -8,7 +8,7 @@
     <title>Health Box</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-      </style>
+    </style>
     <link rel="stylesheet" href="login.css">
 </head>
 
@@ -20,24 +20,28 @@
                 <label for="">E-mail</label>
                 <input type="text" class="email-senha">
                 <label for="">Senha</label>
-                <input type="text" class="large-data email-senha" >
+                <input type="text" class="large-data email-senha">
                 <div class="opcoes1">
                     <p class="small-letters">Esqueci minha senha</p>
                     <div>
-                        <input type="checkbox" name="conectado">
+                        <input type="checkbox" name="conectado" class="flag">
                         <label for="conectado" class="small-letters">Mantenha-me conectado</label>
                     </div>
                 </div>
                 <div class="redes">
                     <p class="small-letters">Entrar com:</p>
-                    <img src="../img/Login-cadastro/face2.png" alt="" class="face">
+                    <a href="https://pt-br.facebook.com/login/device-based/regular/login"><img src="../img/Login-cadastro/face2.png" alt="" class="face"></a>
                     <img src="../img/Login-cadastro/g.png" alt="" class="icons8">
                     <img src="../img/Login-cadastro/apple.png" alt="" class="icons8">
                 </div>
-                <p class="small-letters termos">Ao fazer login, você concorda com a Política de Privacidade e com os Termos de
+                <p class="small-letters termos">Ao fazer login, você concorda com a Política de Privacidade e com os
+                    Termos de
                     Uso da Health box.</p>
                 <input type="submit" value="Entrar" id="entrar">
-                <p class="small-letters registro">Não está registrado? Faça cadastro!</p>
+                <div class="registro2">
+                    <p class="small-letters registro">Não está registrado?</p>
+                    <a href="../cadastro/cadastro.html" class="small-letters cadastro">Cadastre-se!</a>
+                </div>
             </form>
 
         </div>
