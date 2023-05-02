@@ -5,8 +5,13 @@
 .texto{
     height: 80vh;
     width: 30vw;
-    margin-left: 56%;
-    margin-top: 12vh;
+    margin-left: 43%;
+    margin-top: -48vh;
+    position: fixed;
+}
+
+.cor-texto{
+    color: #0A250D;
 }
 
 .body{
@@ -126,19 +131,21 @@ menu{
     margin-left: 2vh;
     margin-top: 1px;
 } 
-.esp-img-fundo{
-    width: 110vh;
-    height: 40vw;
-    position: fixed;
+.img-logo-sobre-nos{
+    background-color: aqua;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 5%;
+    margin-top: 22vh;
 }
-.IMG-FUNDO{
-    background-image: url(/img/inicio/img-inicio.jpg) ;
-    width: 50vw;
-    height: 86vh;
-    margin-left: 30px;
-    margin-top: -20px;
-    background-size: cover; 
-} 
+.img-logo-grande{
+    width: 40vw;
+    height: 90vh;
+    background-image: url(/img/sobre-nos/healthbox-logo-sobre-nos.png);
+    background-size: cover;
+    margin-top: ;
+    margin-left: -7vw;
+}
 
 
 

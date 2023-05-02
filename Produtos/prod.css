@@ -64,6 +64,7 @@ nav{
 }
 
 a:hover{
+    color: green;
     background: rgb(176, 224, 230);
     color: black;
 }
@@ -125,7 +126,7 @@ a:hover{
     margin-left: 145vh;
     margin-top: 13px;
     color: white;
-    font-family: 'Montserrat', sans-serif;1
+    font-family: 'Montserrat', sans-serif;
 }
  
 .espaço-palavras-menu-principal{
@@ -138,18 +139,20 @@ a:hover{
 }
 
 .sacola{
-    margin-left: 22%;
+    margin-left: 24%;
     margin-top: 4px;
     color: white;
     position: relative;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .entrar{
     margin-left: 22%;
     margin-top: 4px;
     color: white;
     position: relative;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .img-sacola{
@@ -171,16 +174,196 @@ a:hover{
     margin-top: 1px;
 } 
 
-.cabeçalho{
-    margin-left: 95%;
+.container-descricao{
+    display:grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 33% 33% 33%;
+    width: 90%;
+    height: 15vh;
     margin-top: 10vh;
-    border: solid 1px  black;
+
+}
+
+.container-caixinhas{
+    display:grid;
+    /* grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%) ; */
+    grid-template-areas:
+     'b12 b13 b14 b15'
+     'b12 b13 b14 b15';
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+    gap: 5vh;
+}
+
+.fundo-caixinhas{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.box{ 
+    /* border: solid 1px black; */
+    display: grid;
     
 }
 
-#faixa-de-preço{
-    border: solid 1px  black;
-    margin-top: 20vh;
-    height: 20px;
-    width: 100vh;
+#box1{
+    /* grid-area: b1; */
+    grid-column: 1/11;
+    padding: 10px;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight:bold;
 }
+
+#box2{
+    /* grid-area: b2; */
+    grid-column: 1/9;
+    padding: 10px;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+#box3{
+    /* grid-area: b3; */
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+#box4{
+    align-content: end;
+    /* grid-area: b4; */
+}
+
+#box5{
+    /* grid-area: b5; */
+    /* display: flex; */
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    justify-items: end;
+}
+
+#box6{
+    /* grid-area: b6; */
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    
+}
+
+#box7{
+    /* grid-area:b7 ; */
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    justify-content: end;
+}
+
+#box8{
+    /* grid-area:b8 ; */
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+#box9{
+    /* grid-area:b8 ; */
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    justify-content: end;
+}
+
+#box10{
+    /* grid-area:b8 ; */
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+#box11{
+    /* grid-area:b8 ; */
+    grid-column: 7/11;
+}
+
+#box12{
+    grid-area:b12 ;
+    height: 60vh;
+    /* background-image: url(1.png); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+}
+
+#box13{
+    grid-area:b13 ;
+    height: 60vh;
+    /* background-image: url(2.png); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#box14{
+    grid-area: b14;
+    height: 60vh;
+    /* background-image: url(3.png); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#box15{
+    grid-area: b15;
+    height: 60vh;
+    /* background-image: url(4.png); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#imgbox12{
+    
+    background-image: url(1.png);
+    
+    
+}
+
+.imgbox{
+    justify-self: center;
+    height: 5vh;
+    width: 5vh;
+    border: 1px solid black;
+     border-radius: 10px;
+}
+#imgbox13{
+  
+    background-image: url(2.png);
+}
+
+#imgbox14{
+    background-image: url(3.png);
+}
+
+#imgbox15{
+    background-image: url(4.png);
+}
+
+
+.produtos{
+    color: #0A250D;
+}
+
+input > #box5{
+    width: 30px;
+}
+
+
