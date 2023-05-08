@@ -36,7 +36,6 @@
     height: 2px;
     position: relative;
 }
-
 .btn-buscar-top{
     margin-left: -29px;
     top: 16px;
@@ -47,7 +46,6 @@
     cursor: pointer;
     position: fixed;
 }
-
 .espaço-palavras-menu-principal{
     margin-left: 84vw;
     margin-top: -2vw;
@@ -83,7 +81,6 @@
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 .img-sacola{
     width: 25px;
@@ -358,7 +355,6 @@ a:hover{
     
     
 }
-
 
 #imgbox13{
   
