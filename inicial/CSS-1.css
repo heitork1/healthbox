@@ -132,9 +132,8 @@ menu{
     position: fixed;
 }
 .IMG-FUNDO{
-    background-image: url(/img/inicio/img-inicio.jpg) ;
-    width: 50vw;
-    height: 86vh;
+    background-image: url(../img/inicio/img-inicio.jpg);
+    height: 100%;
     margin-left: 30px;
     margin-top: -20px;
     background-size: cover; 
