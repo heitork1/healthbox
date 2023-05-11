@@ -19,24 +19,14 @@
     height: 61.83%;
     align-items: center;
     border-radius: 12px;
-<<<<<<< HEAD
     width: 16.2%;
     padding-left: 2.27%;
     margin-left: 46.6%;
-=======
-    width: 18%;
-    padding-left: 2.27%;
-    margin-left: 45%;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
     
 }
 .pesquisa img {
     height: 70%;
-<<<<<<< HEAD
     margin-left: 10%;
-=======
-    margin-left: 18%;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
 }
 input{
     border: none;
@@ -46,11 +36,7 @@ input{
     display: flex;
     height: 75%;
     align-items: center;
-<<<<<<< HEAD
     margin-left: 4.5%;
-=======
-    margin-left: 3%;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
 }
 p{
     color: white;
@@ -63,32 +49,20 @@ p{
     display: flex;
     height: 75%;
     align-items: center;
-<<<<<<< HEAD
     margin-left: 1.4%;
-=======
-    margin-left: 3%;
-}
-.sacola p{
-    margin-left: 8%;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
 }
 img{
     height: 60%;
 }
 
 .faixa2{
-<<<<<<< HEAD
     background-color: #429C44;
-=======
-    background-color: #429B40;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
     height: 7.2vh;
 }
 .opcoes{
     display: flex;
     height: 100%;
     align-items: center;
-<<<<<<< HEAD
     margin-left: 67.8%;
     justify-content: space-between;
     width: 21.3%;
@@ -130,12 +104,4 @@ img{
 }
 .pagamento img{
     width: 4vw;
-=======
-    margin-left: 78%;
-    justify-content: space-between;
-    width: 20%;
-}
-.opcoes p {
-    font-size: 16px;
->>>>>>> 1c9013b1c0e466a60e1165ddfed324c21e329315
 }

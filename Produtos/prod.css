@@ -1,33 +1,156 @@
-*{
+body {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu-principal{
-    display: inline;
+
+/* menu principal */
+
+.menu01{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color:#250a1e;
-    height: 55px;
-    position: fixed;
+    height: 58px;
+    background-color: #0A250D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
-.logo{
-    background-image: url(logo-br.png);
-    width: 220px;
-    height: 220px;
-    margin-top: -82px;
-    margin-left: -10px;
-    position: fixed;
-    background-size: cover;
+.logo {
+    /* font-size: 10px;
+    font-weight: bold; */
+    background-image:url(logo-br.png) ;
+    background-size: 240px;
+    text-transform: uppercase;
+    width: 236px;
+    height: 145px;
+    margin-top:-96px;
+    margin-left: -25px;
 }
 
-.form-busca-site{
-    margin-left: 2px;
+/* caixa de pesquisa */
+
+.caixa-de-pergunta {
+    flex: 1;
+    margin: 0 20px;
+    /* text-transform: uppercase; */
+}
+
+.caixa-de-pergunta input[type="text"] {
+    margin-right: 1vw;
+    width: 275px;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:rgb(235, 236,240);
+}
+.btn-buscar-top{
+    margin-left: -7vh;
+    margin-top: 2px;
+    width: 4vh;
+    height: 4vh;
+    background-color: rgba(138, 97, 172, 0.533);
+    background:no-repeat;
+    border:none;
+    cursor: pointer;
+    position: fixed;
+    background-image: URL(icons8-lupa\ \(1\).svg);
+    background-size: 4vh;
+}
+
+.search-and-login {
+    display: flex;
+    align-items: center;
+}
+
+/* Entrar e sacola */
+
+.entrar-sacola {
+    display: flex;
+    align-items: center;
+    width: 30vh ;
+}
+
+/* entrar */
+
+.Tex-entrar{
+    color: #fff;
+    margin-left:21vh;
+    margin-top:-1vh ;
+    text-decoration: none;
+    font-size: 2vh;
+    position: fixed; 
+    font-family: 'Montserrat', sans-serif;
+} 
+.entrar-tamanho{
+    width: 4vh;
+    height: 4vh;
+    margin-top:-2vh;
+    margin-left: 16vh;
+    position: fixed; 
+}
+
+/* sacola */
+
+.bag-tamanho{
+    width: 4vh;
+    height: 4vh;
+    margin-top:-2vh;
+    position: fixed; 
+}
+.Tex-bag{
+    color: #fff;
+    margin-left:5vh;
+    margin-top:-1vh ;
+    text-decoration: none;
+    font-size: 2vh;
+    position: fixed; 
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+
+
+
+
+
+
+/* menu02  */
+
+.menu02{
+    position: fixed;
+    margin-top: 58px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #7C9E82;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .btn-text-top{
-    margin-left: 135vh;
-    margin-top: 10px;
+    /* margin-left: 135vh; */
+    /* margin-top: 10px; */
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255,8);
     border-radius: 12px;
@@ -36,162 +159,15 @@
     height: 2px;
     position: relative;
 }
-.btn-buscar-top{
-    margin-left: -29px;
-    top: 16px;
-    width: 20px;
-    height: 22px;
-    background:url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
-    border:none;
-    cursor: pointer;
-    position: fixed;
-}
-.espaço-palavras-menu-principal{
-    margin-left: 84vw;
-    margin-top: -2vw;
-    position: fixed;
-    height: 4vh;
-    width: 14vw; 
-    display: inline-flex;
-}
-
-.entrar{
-    margin-left: 22%;
-    margin-top: 4px;
-    color: white;
-    position: relative;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.img-entrar{
-    width: 25px;
-    height: 25px;
-    background-image: url(/img/inicio/bonequinho.png) ;
-    position: fixed;
-    background-size: cover;
-    margin-left: 2vh;
-    margin-top: 1px;
-} 
-.sacola{
-    margin-left: 24%;
-    margin-top: 4px;
-    color: white;
-    position: relative;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.img-sacola{
-    width: 25px;
-    height: 25px;
-    background-image: url(/img/inicio/bag.png) ;
-    position: fixed;
-    background-size: cover;
-    margin-left: 16vh;
-    margin-top: 1px;
-}
-
-
-
-
-
-
- .palavras-menu-secundario{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 2vh;
-
-}
-
-
-
-
-menu{
-    font-family: arial;
-    margin-top: 30px;
-    width: 200px;
-    height: 100px;
-}
-
-.menu-secundario> img{
-    height: 20px; 
-    width: 20px
-}
-
-.menu-secundario>a{
-    text-decoration: none;
-    color:black;
-}
-
-ul{
-  list-style: none;
-}
-
-.menu>input[type="checkbox"]{
-    display: none;
-}
-
-nav{
-    background-color: rgba(16, 16, 16, .5);
-    width: 350px;
-    height: 100%;
-}
-
-.menu-secundario>a{
-    background: red;
-    display: block;
-    padding: 20px 5px;
-    margin-top: -20px;
-}
-
-a:hover{
-    color: green;
-    color:black;
-}
-
-.menu-secundario>label{
-    background-color: rgb(241, 0, 0);
-    width: 5px; 
-    height: 5px;
-    margin-bottom: -10px;
-    margin-left: 20px;
-}
-
-
-
-
-
-.menu-secundario{
-
-    width: 100vw;
-    background-color:#7C9E82;
-    height: 7vh;  
-    margin: 0;
-    padding: 0;
-}
-
-.container-menu-secundario{
-    display: flex;
-    height: 3vh;
-    width: 60vh;
-    justify-content:space-around;
-    margin-left: 145vh;
-    margin-top: vh;
-    
-}
- 
-
-
 
 
 .container-descricao{
     display:grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: 33% 33% 33%;
-    width: 90%;
+    width: 100%;
     height: 15vh;
-    margin-top: 10vh;
+    margin-top: 16vh;
 
 }
 
@@ -209,13 +185,13 @@ a:hover{
 
 .fundo-caixinhas{
     border-radius: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .box{ 
     /* border: solid 1px black; */
     display: grid;
-    
+    align-items: center;
 }
 
 #box1{
@@ -233,26 +209,27 @@ a:hover{
     grid-column: 1/9;
     padding: 10px;
     margin-left: 15px;
+    margin-top: -4vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
 
 #box3{
     /* grid-area: b3; */
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
+    margin-top: -3vh;
 }
 
 #box4{
-    align-content: end;
+    margin-top: -2vh;
+    
     /* grid-area: b4; */
 }
 
 #box5{
     /* grid-area: b5; */
     /* display: flex; */
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     margin-left: 15px;
@@ -262,9 +239,9 @@ a:hover{
 #box6{
     /* grid-area: b6; */
     display: flex;
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
+    justify-items: end;
     
 }
 
@@ -343,7 +320,7 @@ a:hover{
     margin: 5vh;
     height: 35vh;
     width: 33vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     
 }
@@ -374,14 +351,47 @@ a:hover{
     color: #0A250D;
 }
 
-input > #box5{
-    width: 30px;
+.descricao-produtos{
+    /* border: 1px solid black; */
+    height: 10vh;
 }
 
-.fundo{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(235, 236,240);
+
+#h1 {
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:-3vh;
+
+}
+
+#h2{
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-left: 3vh;
+    
+
+}
+
+input > #box5{
+    width: 2vh;
+}
+.estrelas input[type=radio] {
+  display: none;
+  
+}
+.estrelas label i.fa{
+  font-size: 1.3em;
+  
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0; 
+  margin-left: 3vh;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+  
 }
