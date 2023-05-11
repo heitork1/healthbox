@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.faixa1{
+    background-color: #093807;
+    display: flex;
+    height: 8.8vh;
+    align-items: center;  
+}
+#logo{
+    height: 35vh;
+    padding: 0%;
+    margin-left: -0.7%;
+}
+.pesquisa{
+    display: flex;
+    background-color: white;
+    height: 61.83%;
+    align-items: center;
+    border-radius: 12px;
+    width: 16.2%;
+    padding-left: 2.27%;
+    margin-left: 46.6%;
+    
+}
+.pesquisa img {
+    height: 70%;
+    margin-left: 10%;
+}
+input{
+    border: none;
+    outline: none;
+}
+.entrar{
+    display: flex;
+    height: 75%;
+    align-items: center;
+    margin-left: 4.5%;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4%;
+}
+.sacola{
+    display: flex;
+    height: 75%;
+    align-items: center;
+    margin-left: 1.4%;
+}
+img{
+    height: 60%;
+}
+
+.faixa2{
+    background-color: #429C44;
+    height: 7.2vh;
+}
+.opcoes{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 67.8%;
+    justify-content: space-between;
+    width: 21.3%;
+}
+.opcoes p {
+    font-size: 16px;
+}
+
+.informacoes{
+    width:25vw;
+    margin: 3vh 0 0;
+}
+.endereco{
+    background-color: #DFCBBE;
+    margin: 3vh 0;
+}
+.envio{
+    background-color: #DFCBBE;
+    
+}
+.pagamento{
+    background-color: #DFCBBE;
+    margin: 3vh 0 ;
+}
+.country img{
+    width: 5vw;
+}
+.cep img{
+    width: 3vw;
+}
+.casa img{
+    width: 3vw;
+}
+.envio > h2 > img{
+    width: 4vw;
+}
+.envio > label > img{
+    width: 5vw;
+}
+.pagamento img{
+    width: 4vw;
+}
