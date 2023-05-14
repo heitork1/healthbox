@@ -54,7 +54,6 @@ p{
 img{
     height: 60%;
 }
-
 .faixa2{
     background-color: #429C44;
     height: 7.2vh;
@@ -70,7 +69,14 @@ img{
 .opcoes p {
     font-size: 16px;
 }
-
+body{
+    background-color: #E9E7E4;
+    font-family: 'Inter', sans-serif;
+    color: #3D2A1A;
+}
+h1{
+    
+}
 .informacoes{
     width:25vw;
     margin: 3vh 0 0;
@@ -104,4 +110,22 @@ img{
 }
 .pagamento img{
     width: 4vw;
+}
+form{
+    display: flex;
+    width: 100%;
+}
+.descricao{
+    display: flex;
+
+}
+.descproduto{
+    width: 20vw;
+}
+.ume50{
+    display: flex;
+}
+.box{
+    padding: 2%;
+    border-radius: 10px;
 }

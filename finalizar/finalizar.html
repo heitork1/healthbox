@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,9 +8,13 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Finalizar Pedido</title>
     <link rel="stylesheet" href="finalizar.css" />
 </head>
@@ -43,47 +46,72 @@
         </div>
     </header>
     <main>
-        <section class="informacoes">
-            <h1>FINALIZAR PEDIDO</h1>
-            <div class="endereco">
-                <h2><span>1</span> Endereço de Entrega</h2>
+        <form action="">
+            <section class="informacoes">
+                <h1>FINALIZAR PEDIDO</h1>
+                <div class="endereco box">
+                    <h2><span>1</span> Endereço de Entrega</h2>
 
-                <div class="country">
-                    <label for="country"><img src="../img/finalizar/mapa.png" alt="">País</label>
-                    <select name="country" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
+                    <div class="country">
+                        <label for="country"><img src="../img/finalizar/mapa.png" alt="">País</label>
+                        <select name="country" id="">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="cep">
+                        <label for="cep"><img src="../img/finalizar/point.png" alt=""></label>
+                        <input type="text" name="cep" id="" placeholder="CEP">
+                    </div>
+                    <div class="casa">
+                        <label for="casa"><img src="../img/finalizar/casa.png" alt=""></label>
+                        <input type="text" name="casa" id="" placeholder="N° da casa">
+                    </div>
                 </div>
-                <div class="cep">        
-                    <label for="cep"><img src="../img/finalizar/point.png" alt=""></label>
-                    <input type="text" name="cep" id="" placeholder="CEP">
+
+                <div class="envio box">
+                    <h2><span>2</span> Forma de envio <img src="../img/finalizar/furgao.png" alt=""></h2>
+                    <input type="radio" name="fedex" value="fedex">
+                    <label for="fedex"><img src="../img/finalizar/fedex.png" alt=""></label>
+                    <input type="radio" name="sedex" value="sedex">
+                    <label for="sedex"><img src="../img/finalizar/sedex.png" alt=""></label>
                 </div>
-                <div class="casa">
-                    <label for="casa"><img src="../img/finalizar/casa.png" alt=""></label>
-                    <input type="text" name="casa" id="" placeholder="N° da casa">
+
+                <div class="pagamento box">
+                    <h2><span>3</span> Forma de pagamento</h2>
+                    <input type="radio" name="boleto" id="">
+                    <label for="boleto"><img src="../img/finalizar/boleto.png" alt="">Boleto</label>
+                    <input type="radio" name="pix" id="">
+                    <label for="pix"><img src="../img/finalizar/pix.png" alt="">Pix</label>
+
                 </div>
-            </div>
-
-            <div class="envio">
-                <h2><span>2</span> Forma de envio <img src="../img/finalizar/furgao.png" alt=""></h2>
-                <input type="radio" name="fedex" value="fedex">
-                <label for="fedex"><img src="../img/finalizar/fedex.png" alt=""></label>
-                <input type="radio" name="sedex" value="sedex">
-                <label for="sedex"><img src="../img/finalizar/sedex.png" alt=""></label>
-            </div>
-
-            <div class="pagamento">
-                <h2><span>3</span> Forma de pagamento</h2>
-                <input type="radio" name="boleto" id="">
-                <label for="boleto"><img src="../img/finalizar/boleto.png" alt="">Boleto</label>
-                <input type="radio" name="pix" id="">
-                <label for="pix"><img src="../img/finalizar/pix.png" alt="">Pix</label>
-                
-            </div>
-
-        </section>
+            </section>
+            <img src="../img/finalizar/linha-vertical.png" alt="">
+            <section class="resumo">
+                <h1>RESUMO DE PEDIDO</h1>
+                <div class="descricao">
+                    <img src="../img/finalizar/comida.png" alt="">
+                    <div class="descproduto">
+                        <p>Descrição do produto</p>
+                        <p>marca:produto</p>
+                        <div class="ume50">
+                            <p>1</p>
+                            <span>R$50,00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="observacoes">
+                    <h5>Observações</h3>
+                        <textarea name="" id="" cols="30" rows="6"
+                            placeholder="Adicione informações relacionadas ao seu pedido"></textarea>
+                        <p><a href="">Voltar à sacola</a></p>
+                        <h4>Subtotal: R$00,00</h4>
+                        <h3>Total do pedido: R$00,00</h3>
+                        <input type="submit" value="CONFIRMAR">
+                </div>
+            </section>
+        </form>
     </main>
 </body>
 
