@@ -336,14 +336,17 @@ header {
 #imgbox13{
   
     background-image: url(2.png);
+    background-position: center center;
 }
 
 #imgbox14{
     background-image: url(3.png);
+    background-position: center center;
 }
 
 #imgbox15{
     background-image: url(4.png);
+    background-position: center center;
 }
 
 
@@ -367,12 +370,21 @@ header {
 }
 
 #h2{
-    font-size: 1.4em;
+    margin-top: -11vh;
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-left: 3vh;
     
+}
 
+#h3{
+    margin-top: -2vh;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-left: 3vh;
+    
 }
 
 input > #box5{
@@ -385,13 +397,15 @@ input > #box5{
 .estrelas label i.fa{
   font-size: 1.3em;
   
+  
 }
 .estrelas label i.fa:before {
   content:'\f005';
-  color: #FC0; 
+  color: rgb(255, 238, 0); 
   margin-left: 3vh;
+  
 }
 .estrelas input[type=radio]:checked ~ label i.fa:before {
-  color: #CCC;
+  color: #c4a888;
   
 }
