@@ -50,10 +50,11 @@
             <section class="informacoes">
                 <h1>FINALIZAR PEDIDO</h1>
                 <div class="endereco box">
-                    <h2><span>1</span> Endereço de Entrega</h2>
+                    <h2><span class="num um">1</span> Endereço de Entrega</h2>
 
                     <div class="country">
-                        <label for="country"><img src="../img/finalizar/mapa.png" alt="">País</label>
+                        <label for="country"><img src="../img/finalizar/mapa.png" alt=""><span
+                                class="pais">País</span></label>
                         <select name="country" id="">
                             <option value=""></option>
                             <option value=""></option>
@@ -70,21 +71,32 @@
                     </div>
                 </div>
 
-                <div class="envio box">
-                    <h2><span>2</span> Forma de envio <img src="../img/finalizar/furgao.png" alt=""></h2>
-                    <input type="radio" name="fedex" value="fedex">
-                    <label for="fedex"><img src="../img/finalizar/fedex.png" alt=""></label>
-                    <input type="radio" name="sedex" value="sedex">
-                    <label for="sedex"><img src="../img/finalizar/sedex.png" alt=""></label>
+                <div class="envio box asdemais">
+                    <h2 class="formaenvio"><span class="num dois">2</span>
+                        <sapn class="fde">Forma de envio </sapn><img src="../img/finalizar/furgao.png" alt="">
+                    </h2>
+                    <div class="inputs">
+                        <input type="radio" name="fedex" value="fedex">
+                        <label for="fedex"><img src="../img/finalizar/fedex.png" alt=""></label>
+                        <input type="radio" name="sedex" value="sedex" id="sedex">
+                        <label for="sedex"><img src="../img/finalizar/sedex.png" alt=""></label>
+                    </div>
                 </div>
 
-                <div class="pagamento box">
-                    <h2><span>3</span> Forma de pagamento</h2>
-                    <input type="radio" name="boleto" id="">
-                    <label for="boleto"><img src="../img/finalizar/boleto.png" alt="">Boleto</label>
-                    <input type="radio" name="pix" id="">
-                    <label for="pix"><img src="../img/finalizar/pix.png" alt="">Pix</label>
+                <div class="pagamento box asdemais">
 
+                    <h2><span class="num">3</span> Forma de pagamento</h2>
+                    <div class="bolpix">
+                        <div class="boleto">
+                            <input type="radio" name="boleto" id="">
+                            <label for="boleto"><span class="bolet"><img src="../img/finalizar/boleto.png"
+                                        alt="">Boleto</span></label>
+                        </div>
+                        <div class="pix">
+                            <input type="radio" name="pix" id="">
+                            <label for="pix"><span class="pi"><img src="../img/finalizar/pix.png" alt="">Pix</span></label>
+                        </div>
+                    </div>
                 </div>
             </section>
             <img src="../img/finalizar/linha-vertical.png" alt="">
