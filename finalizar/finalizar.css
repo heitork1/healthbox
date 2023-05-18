@@ -8,6 +8,9 @@
     height: 8.8vh;
     align-items: center;  
 }
+.faixa1 p{
+    margin-left: 15%;
+}
 #logo{
     height: 35vh;
     padding: 0%;
@@ -36,7 +39,7 @@ input{
     display: flex;
     height: 75%;
     align-items: center;
-    margin-left: 4.5%;
+    margin-left: 2.5%;
 }
 p{
     color: white;
@@ -49,7 +52,7 @@ p{
     display: flex;
     height: 75%;
     align-items: center;
-    margin-left: 1.4%;
+    margin-left: 3%;
 }
 img{
     height: 60%;
@@ -62,12 +65,13 @@ img{
     display: flex;
     height: 100%;
     align-items: center;
-    margin-left: 67.8%;
+    margin-left: 79%;
     justify-content: space-between;
-    width: 21.3%;
+    width: 20%;
 }
 .opcoes p {
     font-size: 16px;
+    align-self: center;
 }
 body{
     background-color: #E9E7E4;
@@ -171,7 +175,8 @@ form{
 .desc {
     background-color: white;
     color: #3D2A1A;
-    
+    border-radius: 4px;
+    padding-left: 1%;
     font-weight: 500;
 }
 .ume50{
@@ -316,4 +321,7 @@ h1{
 }
 h4{
     margin-top: 2%;
+}
+#nos{
+    padding-right: 2%;
 }
