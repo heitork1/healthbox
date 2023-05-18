@@ -26,7 +26,7 @@
 }
 .pesquisa img {
     height: 70%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 input{
     border: none;
@@ -84,11 +84,12 @@ h1{
 }
 .endereco{
     background-color: #DFCBBE;
-    margin: 2vh 0 1.5vh 0;
+    margin: 2.5vh 0 1.5vh 0;
     height: 36%;
 }
 .endereco > h2{
     margin-top: 3%;
+    font-size: 20px;
 }
 .endereco img{
     margin-top: 2%;
@@ -100,10 +101,17 @@ h1{
 .pagamento{
     background-color: #DFCBBE;
     margin: 3vh 0 ;
-    height: 25%;
+    height: 24%;
 }
 .country{
     margin-top: 3%;
+}
+.country select{
+    
+}
+.country span{
+    margin-left: 1%;
+    padding-right: 36%;
 }
 .country img{
     width: 4vw;
@@ -114,8 +122,12 @@ h1{
 .casa img{
     width: 2.4vw;
 }
+h2{
+font-size: 20px;
+}
 .envio > h2 > img{
     width: 4vw;
+
 }
 .inputs{
     margin-left: 12%;
@@ -165,25 +177,27 @@ form{
 .ume50{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
     margin-top: 10%;
+    align-items: baseline;
     
 }
 .box{
     padding: 2%;
+    padding-left: 4%;
     border-radius: 10px;
 }
 .num{
     color: #EBECF0;
     background-color: #093807;
-    padding: 0.8% 3%;
+    padding: 0.8% 2.5%;
     border-radius: 50%;
 }
 .um{
-    padding: 0.5% 3.2%;
+    padding: 0.5% 3%;
 }
 .dois{
-    padding: 0.5% 2.8%;
+    padding: 0.5% 2.5%;
     margin-top: 2%;
 }
 main input{
@@ -231,20 +245,24 @@ main input{
 }
 #umdesc{
     background-color: #B49E88;
-    padding: 2% 8%;
+    padding: 5% 10%;
     border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
 }
 #cinquenta{
     background-color: #DFCBBE;
-    padding: 1% 2%;
+    padding: 5% 4%;
     border-radius: 8px;
 }
 .voltar{
-    margin-left: 65%;
+    margin-left: 74%;
+    font-size: 14px;
 }
 .resumo h1{
     margin-top: 4%;
     margin-bottom: 3%;
+    width: 83%;
 }
 h5{
     margin-top: 5%;
@@ -257,7 +275,7 @@ input[type=submit]{
     padding: 3% 6%;
     display: flex;
     margin: auto;
-    margin-top: 4%;
+    margin-top: 3.5%;
     border-radius: 8px;
     border: none;
     background-color: #093807;
@@ -269,4 +287,33 @@ input[type=submit]{
 form{
     display: flex;
     justify-content: center;
+}
+textarea{
+    background-color: #DFCBBE;
+    border: none;
+    outline: none;
+    padding: 1% 2% 1% 2%;
+    border-radius: 15px;
+}
+a{
+    color: #3C2919;
+}
+#linha{
+    display: flex;
+    align-self: center;
+    height: 70vh;
+    margin-top: 4.5%;
+}
+h1{
+    font-size: 25px;
+}
+.endereco input{
+    margin-left: 6%;
+    width: 75%;
+}
+.observacoes{
+    width: 85%;
+}
+h4{
+    margin-top: 2%;
 }
