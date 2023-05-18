@@ -170,10 +170,18 @@ header {
 
 .container-descricao{
    margin-top: 20vh;
-   border:1px solid black;
-   width: 100%
-   ;
+   margin-left: 3vh;
+   display:grid;
+   /* border:1px solid black; */
+   grid-template-areas: 
+   'b1 b1 b1 b1 b1 b1'
+   'b2 b2 b2 b3 b3 b3'
+   'b4 b6 b8 b8 b8 b8';
+   width: 200vh;
+   height: 100px;
+   
 } 
+
 
 .container-caixinhas{
     display:grid;
@@ -182,35 +190,35 @@ header {
     grid-template-areas:
      'b12 b13 b14 b15'
      'b12 b13 b14 b15';
-    margin-left:5vh;
-    margin-top: 5vh;
+    margin-left:3vh;
+    margin-top: 13vh;
     gap: 4vh;
 }
 
-.fundo-caixinhas{
-    border-radius: 10px;
-    /* border: 1px solid black; */
-}
 
 .box-descricao{ 
-    /* border: solid 1px black; */
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+}
+
+label.radio{
+    background-color: aqua;
+    align-self: center;
+
 }
 
 #box1{
     grid-area: b1;
     /* grid-column: 1/11; */
-    margin-left: 15px;
-    
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight:bold;
-    height: 20px;
 }
 
 #box2{
     grid-area: b2;
     /* grid-column: 1/9; */
-    margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
@@ -222,57 +230,43 @@ header {
 }
 
 #box4{
-    
-    /* grid-area: b4; */
+    font-family: 'Montserrat', sans-serif;
+    grid-area: b4;
 }
 
 #box5{
-    /* grid-area: b5; */
+    grid-area: b5;
     /* display: flex; */
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    margin-left: 15px;
-    justify-self: end;
-    
-    
 }
 
 #box6{
     grid-area: b6;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    justify-self: last baseline;
     
 }
 
 #box7{
-    grid-area:b7 ;
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    grid-area: b7;
 }
 
 #box8{
-    grid-area:b8 ;
+    grid-area: b8;
+    /* display: flex; */
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
 
 #box9{
-    grid-area:b9 ;
+    grid-area: b9;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
+    
 }
 
-#box10{
-    grid-area:b10 ;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-}
-
-#box11{
-    grid-area:b11 ;
-    /* grid-column: 7/11; */
-}
 
 #box12{
     grid-area:b12 ;
